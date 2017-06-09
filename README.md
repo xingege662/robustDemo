@@ -86,7 +86,9 @@ buildscript {
  
 ## 写代码
 基本的配置就已经配置好了，写点简单的代码，先看效果图
+
 ![image](http://opy4iwqsf.bkt.clouddn.com/2017-06-09%2015.48.54.gif)
+
 功能很简单，第二个按钮跳转到第二个Activity。第一个按钮加载一会儿生成的patch文件。跳转代码如下
 
 
