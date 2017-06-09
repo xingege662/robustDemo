@@ -251,6 +251,7 @@ adb push app/build/outputs/robust/patch.jar /sdcard/robust
 
 刚刚增加的代码打出的log,热更新成功了。
 ![image](http://opy4iwqsf.bkt.clouddn.com/WX20170609-162902@2x.png)
-
+## 不足
+1. 每次都要手动拷贝map文件，每次的都要替换插件来生成patch包。
 
 	
