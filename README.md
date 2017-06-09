@@ -19,7 +19,9 @@
 6. 支持ProGuard的混淆、内联、优化等操作
 
 ## 大概流程
+
 ![image](http://www.jcodecraeer.com/uploads/userup/9742/1F409203520-3292-0.png)
+
 ## 集成方法
 1. 在App的build.gradle，加入如下依赖
 ```
