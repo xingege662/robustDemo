@@ -5,9 +5,9 @@
 
 我们知道，InstantRun 对应三种更新机制：
 
-- 冷插拔，我们称之为重启更新机制
-- 温插拔，我们称之为重启Activity更新机制
-- 热插拔，我们称之为热更新机制
+- 冷插拔，我们称之为重启更新机制  
+- 温插拔，我们称之为重启Activity更新机制,在重启的时候替换Application的classLoader来加载dex
+- 热插拔，我们称之为热更新机制,新建classLoader来加载dex
 
  Robust ，其热修复的关键技术点就是采用了 InstantRun 中的热更新机制，对应于多 ClassLoader 的动态加载方案，即一个 dex 文件对应一个新建 ClassLoader 。
 ## 优势
